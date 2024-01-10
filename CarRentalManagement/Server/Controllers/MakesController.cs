@@ -20,7 +20,7 @@ namespace CarRentalManagement.Server.Controllers
         private readonly IUnitOfWork _unitOfWork;
 
         //public MakesController(ApplicationDbContext context)
-        public MakesController(IUnitOfWork unitOfWork)  
+        public MakesController(IUnitOfWork unitOfWork)
         {
             //_context = context;
             _unitOfWork = unitOfWork;

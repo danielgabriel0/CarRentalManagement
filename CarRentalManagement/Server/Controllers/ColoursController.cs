@@ -32,6 +32,7 @@ namespace CarRentalManagement.Server.Controllers
         public async Task<IActionResult> GetColours()
         {
             ////if (_context.Colour_1 == null)
+            
             //{
             //    return NotFound();
             //}
